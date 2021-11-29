@@ -34,6 +34,7 @@ import org.apache.skywalking.apm.commons.datacarrier.consumer.IConsumer;
 import org.apache.skywalking.apm.network.language.agent.v3.SegmentObject;
 
 import java.util.List;
+import java.util.Properties;
 
 import static org.apache.skywalking.apm.agent.core.conf.Config.Buffer.BUFFER_SIZE;
 import static org.apache.skywalking.apm.agent.core.conf.Config.Buffer.CHANNEL_SIZE;
@@ -76,7 +77,7 @@ public class RocketmqTraceSegmentServiceClient implements BootService, IConsumer
     }
 
     @Override
-    public void init() {
+    public void init(Properties properties) {
 
     }
 
