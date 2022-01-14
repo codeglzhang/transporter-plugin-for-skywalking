@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 #
-FROM apache/skywalking-oap-server:8.7.0-es6
+FROM apache/skywalking-oap-server:8.8.1
 
 COPY ./fetcher-plugins/pulsar-fetcher-plugin/target/pulsar-fetcher-plugin-*.*.*-shaded.jar /skywalking/oap-libs/
 COPY ./test/e2e/case/pulsar/base/oap/application.yml /skywalking/config/application.yml

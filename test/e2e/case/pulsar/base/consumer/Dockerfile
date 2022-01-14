@@ -15,7 +15,7 @@
 #
 #
 
-FROM apache/skywalking-java-agent:8.7.0-jdk8
+FROM apache/skywalking-java-agent:8.8.0-java8
 
 COPY ./reporter-plugins/pulsar-reporter-plugin/target/pulsar-reporter-plugin-*.*.*-shaded.jar /skywalking/agent/plugins/
 

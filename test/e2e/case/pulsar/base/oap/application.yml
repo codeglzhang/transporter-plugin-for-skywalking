@@ -382,6 +382,8 @@ pulsar-fetcher:
   selector: ${SW_PULSAR_FETCHER:default}
   default:
     clientServiceUrl: ${SW_PULSAR_FETCHER_SERVERS:"pulsar://pulsarhost:6650"}
+    enableNativeProtoLog: ${SW_PULSAR_FETCHER_ENABLE_NATIVE_PROTO_LOG:false}
+    enableNativeJsonLog: ${SW_PULSAR_FETCHER_ENABLE_NATIVE_JSON_LOG:false}
 
 receiver-meter:
   selector: ${SW_RECEIVER_METER:default}

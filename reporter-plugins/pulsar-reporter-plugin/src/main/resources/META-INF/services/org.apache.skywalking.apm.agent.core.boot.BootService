@@ -22,3 +22,4 @@ org.skyapm.transporter.reporter.pulsar.PulsarJVMMetricsSender
 org.skyapm.transporter.reporter.pulsar.PulsarTraceSegmentServiceClient
 org.skyapm.transporter.reporter.pulsar.PulsarProfileSnapshotSender
 org.skyapm.transporter.reporter.pulsar.PulsarMeterSender
+org.skyapm.transporter.reporter.pulsar.PulsarLogReporterServiceClient

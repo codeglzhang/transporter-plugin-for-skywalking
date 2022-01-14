@@ -43,6 +43,8 @@ public class PulsarReporterPluginConfig {
 
             public static String TOPIC_METER = "skywalking-meters";
 
+            public static String TOPIC_LOGGING = "skywalking-logs";
+
             /**
              * tenant/namespace or tenant/cluster/namespace
              */

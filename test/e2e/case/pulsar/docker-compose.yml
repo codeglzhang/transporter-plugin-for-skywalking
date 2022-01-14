@@ -19,7 +19,7 @@ version: '2.1'
 
 services:
   pulsar-a:
-    image: apachepulsar/pulsar:2.8.0
+    image: apachepulsar/pulsar:2.8.2
     hostname: pulsar-a
     expose:
       - 6650
@@ -40,6 +40,7 @@ services:
       - 12800
     environment:
       SW_PULSAR_FETCHER_SERVERS: pulsar://pulsar-a:6650
+      SW_PULSAR_FETCHER_ENABLE_NATIVE_PROTO_LOG: "true"
     depends_on:
       pulsar-a:
         condition: service_healthy
